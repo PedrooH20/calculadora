@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family:sans-serif;
+}
+
+.fundo {
+    background-color: white;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.calculadora {
+    position: absolute;
+    background: #6C63FF;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356);
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color:#ddd;
+    border: none;
+    color: #6C63FF;
+    border-radius: 3px;
+}
+.botao:hover {
+    background-color: #7d7773
+}
+
+#resultado {
+    background-color: white;
+    width: 224px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.imagem {
+    width: 35%;
+    margin-top: 80px;
+   
+}
+.texto {
+    position: absolute;
+    color: #6C63FF;
+    position: absolute;
+    margin: 160px;
+    left: 115vh;
+}
+
+.topnav {
+    background-color: #6C63FF;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #6C63FF;
+    color: white;
+  }
+
